@@ -5,7 +5,7 @@ import { Type } from "./typescripts";
 
 const Profile = () => {
   return (
-    <div className="box" >
+    <div className="box"  id="about">
       <div id="Bro" className="d-flex profile container  rounded flex-wrap">
         <div className="  vikramImg " style={{display:"flex",justifyContent: "center"}}>
           <img
