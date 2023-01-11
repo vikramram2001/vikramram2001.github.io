@@ -1,0 +1,130 @@
+.profileImg{
+    width: 30rem;
+    border-radius: 50%;
+    
+}
+.summry{
+   
+    width: 40rem;
+    font-size: 1.5rem;
+    color: black;
+    display: flex;
+    flex-flow: column;
+    /* text-align: center; */
+    align-items: center;
+    justify-content: center;
+}
+.profile{
+    
+    /* border: 1px solid red; */
+    padding: 1rem;
+}
+.box{
+    height: 40rem;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+.blue{
+    color:blue;
+}
+.button{
+    text-decoration: none;
+}
+.vikramImg>img{
+    width: 25rem;
+}
+.vikramImg{
+    
+    width: 25rem;
+}
+
+/* @media only screen and (max-width: 1580px) {
+    .vikramImg>img{
+        width: 15rem;
+    }
+    .vikramImg{
+        margin: auto;
+    }
+    .box{
+        margin: auto;
+        display: flex;
+    }
+    .summry{
+        display: flex;
+        flex-flow: column;
+        font-size: 1rem;
+       
+    }
+
+  } */
+
+  @media only screen and (max-width: 1024px) {
+    .vikramImg>img{
+        width: 15rem;
+        margin: auto;
+        /* border: 1px solid red; */
+
+    }
+  
+    .profile{
+        display: flex;
+        /* border: 1px solid purple; */
+
+        justify-content: center;
+    }
+    .summry{
+        border: 1px solid black;
+        font-size: 1.2rem;
+        margin-left: 10px;
+       
+    }
+
+  }
+
+
+  @media only screen and (max-width: 900px) {
+    .vikramImg>img{
+        width: 15rem;
+        margin: auto;
+        /* border: 1px solid red; */
+
+    }
+    .vikramImg{
+        /* border: 1px solid red; */
+        margin: auto;
+    }
+    .box{
+        margin: auto;
+    }
+    .summry{
+        
+        font-size: 1.2rem;
+       
+    }
+
+  }
+
+
+  @media only screen and (max-width: 800px) {
+    .vikramImg>img{
+        width: 15rem;
+        margin: auto;
+        /* border: 1px solid red; */
+
+    }
+    .vikramImg{
+        /* border: 1px solid red; */
+        margin: auto;
+    }
+    .box{
+        margin: auto;
+    }
+    .summry{
+        
+        font-size: 1.2rem;
+       
+    }
+
+  }
