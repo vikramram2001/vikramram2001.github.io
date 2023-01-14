@@ -8,6 +8,7 @@ import Navbar from "./components/navbar/Navbar";
 import Profile from "./components/profile/Profile";
 import Projects from "./components/project/Projects";
 import Skill from "./components/Skill/Skill";
+import Github from "./components/github/github";
 
 function App() {
   const projectRef = useRef()
@@ -23,9 +24,15 @@ function App() {
         <div className="border my-5 container shadow-none p-3 mb-5 bg-light rounded">
           <Skill skillRef={skillRef}/>
           <Projects projectRef={projectRef} />
-          <Contect contectRef={contectRef}/>
+         
         </div>
-        <Footer />
+    <div style={{margin:"auto"}}>
+           <Github />
+          <Contect contectRef={contectRef}/>
+          <Footer />
+
+    </div>
+       
       </div>
     </div>
   );
